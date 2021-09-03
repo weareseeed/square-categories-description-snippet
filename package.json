@@ -1,0 +1,15 @@
+{
+  "name": "square-collection-snippet",
+  "version": "0.0.1",
+  "description": "Square snippet to get the description from Metadata and insert it under the collection title",
+  "main": "dist/index.js",
+  "author": "Seeed.us (Gabriel) <gabriel@seeed.us>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "dev": "esbuild index.ts --bundle --sourcemap --watch --outfile=dist/index.js --target=chrome88"
+  },
+  "dependencies": {
+    "esbuild": "^0.12.24"
+  }
+}
