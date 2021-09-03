@@ -44,4 +44,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[MIT](https://github.com/weareseeed/react-square-web-payments-sdk/blob/main/LICENSE)
+[MIT](https://github.com/weareseeed/square-categories-description-snippet/blob/main/LICENSE)
