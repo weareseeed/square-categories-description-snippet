@@ -52,7 +52,6 @@ const renderHTML = (element: Element) => {
   const metaDesc: string | undefined | null = document
     .querySelector('meta[property="og:description"]')
     ?.getAttribute("content");
-  console.log(metaDesc);
   if (metaDesc) {
     const description = document.createElement("div");
     description.setAttribute("id", "__snippet_seo_description");
