@@ -49,8 +49,10 @@ window.addEventListener("load", () => {
 });
 
 const renderHTML = (element: Element) => {
-  const metaDesc: string | undefined | null = document
-    .querySelector('meta[property="og:description"]')
+  const metaDesc: string | undefined | null = Array.from(
+    document.querySelectorAll('meta[property="og:description"]')
+  )
+    ?.pop()
     ?.getAttribute("content");
   if (metaDesc) {
     const description = document.createElement("div");
